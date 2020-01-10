@@ -1,0 +1,52 @@
+.landing{
+   padding-top: 25%;
+   color: white;
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+  background: white;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #010203 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #010203 !important;
+  }
+}
+
+.SUMMARY{
+   padding-top: 10%;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+.heading {
+  font-weight: 700;
+  color: #5d4267;
+}
+.card.colorful-card .testimonial-card .card-up {
+  height: 95px;
+}
+.card.colorful-card .testimonial-card .avatar {
+  border: 3px solid #fff !important;
+}

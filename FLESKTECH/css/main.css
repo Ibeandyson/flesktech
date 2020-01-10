@@ -1,0 +1,70 @@
+.landing{
+  padding-top: 10%;
+  color: white;
+}
+html,
+body,
+header,
+.view {
+ height: 90%;
+
+}
+
+@media (max-width: 740px) {
+ html,
+ body,
+ header,
+ .view {
+   height: 70vh;
+ }
+}
+
+.top-nav-collapse {
+ background-color: #010203 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+ background:  #010203!important;
+}
+
+@media (max-width: 991px) {
+ .navbar:not(.top-nav-collapse) {
+   background: #010203 !important;
+ }
+}
+ 
+ 
+.about-intro{
+  padding-top: 50%;
+}
+
+.color-white {
+  background-color: white;
+}
+.card{
+  height: 100%;
+}
+
+
+
+
+@media screen and (min-width: 576px){
+    /* 576px and Up */
+    
+  }
+
+  @media screen and (min-width: 768px){
+    /* 768px and up */
+    
+
+   
+  }
+
+  @media screen and (min-width: 998px){
+    /* 998px and up */
+   
+  }
+  @media screen and (min-width: 1200px){
+    /* 1200px and up */
+   
+  }
